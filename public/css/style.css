@@ -1,0 +1,210 @@
+body {
+    margin:0px;
+    padding:0px;
+    font-family:Lato;
+    background-size:cover;
+    background-color:#ffa500;
+}
+footer {
+    margin: 100px 0px;
+    background: #ffffff;
+    width: 100%;
+}
+
+  .logo {
+   width:250px;
+   float:height;
+   position:relative;
+   left:40%;
+   margin-left:20px;
+      }
+
+
+  .login-box {
+
+       width:400px;
+       height:480px;
+       position:relative;
+       top:20%;
+       left:-30%;
+      transform: tranlate(-50%,-50%);
+       Color: #ffffff;
+       background-color:#ffffff;
+       }
+
+  .login-box h1{
+       float:left;
+       font-size:40px;
+       margin-bottom:20px;
+       padding:10px;
+       color:black;
+       position: absolute;
+       left:20px;
+       top: 10;
+       z-index: 1;
+       }
+   .Usuario{
+       width:300px;
+       float:left;
+       font-size:15px;
+       margin-bottom:5px;
+       padding:8px 3;
+       color:black;
+       position: absolute;
+       top:150;
+       left:25px;
+       }
+     .login {
+         width:330px;
+         height:25px;
+         border:solid 1px #dcdcdc;
+         outline:none;
+         background:none;
+         margin: 10px;
+         position: absolute; top:180;left:20px;
+         }
+
+     .Password{
+       width:300px;
+       float:left;
+       font-size:15px;
+       margin-bottom:5px;
+       padding:8px 3;
+       color:black;
+       position: absolute;top:230;
+       left:25px;
+       }
+  .senha {
+         width:330px;
+         height:25px;
+         border:solid 1px #dcdcdc;
+         outline:none;
+         background:none;
+         margin:1 10px;
+         position: absolute; top:270;
+         left:20px;
+         }
+
+
+  .btn {
+   width:330px;
+   height:40px;
+   float:left;
+   color: #ffffff;
+   margin-bottom:0px;
+   margin:10px;
+   padding:5px 3;
+   background:#0B243B;
+   font-size:15px;
+   cursor:pointer;
+   border:1px solid #dcdcdc;
+   position: absolute;
+   top:75%;
+   left:20px;
+   opacity: 1;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: center;
+   }
+   .btn:hover{
+     opacity: 0.9;
+   }
+
+   .esqueci {
+     color:#ffa500;
+     position: absolute; top:430;left:108px;
+     font-size:18px;
+     border: none;
+     background: none;
+     cursor: pointer;
+
+     }
+   .esqueci:hover{
+     color: blue;
+     border: none;
+   }
+
+
+   .cdt {
+     width:330px;
+     height:30px;
+     color:#0B243B;
+     background: #ffffff;
+     border: solid #dcdcdc;
+     margin:5px;
+     position: relative; top:20px;left:-55;
+     font-size:12px;
+     font-weight:bold;
+     cursor:pointer;
+     border-radius: 5px;
+
+     }
+   .cdt:hover{
+     color: #ffa500;
+     border: none;
+   }
+
+   .recuperar{
+     background: #f3f8fd;
+     position: absolute;
+     top: 150;
+     left: -90;
+     transition: 0.3s;
+     width: 427;
+     height: 200;
+     float: left;
+     border: solid 1px;
+     text-align: left;
+     display:none;
+     z-index:2;
+     box-shadow: #111111c0 6px 6px 6px ;
+    border-color: #1111116c;
+     transition: all 2s ;
+   }
+   .recuperar h1{
+     font-size: 20;
+     color: rgb(0, 0, 0);
+     float: left;
+     padding-left: 80;
+
+   }
+
+   .recuperar h3{
+     font-size: 15px;
+     color: crimson;
+     padding-left: 10;
+     float: left;
+
+   }
+   .recuperar input{
+    height: 25px;
+    width:350px;
+    position: relative;
+    left: 40;
+    color: #000000;
+
+   }
+   .continuar{
+     background: #0B243B;
+     border: none;
+     float: left;
+     width: 200;
+     height: 27;
+     margin: 10;
+     margin-left: 100;
+     color: #f3f8fd;
+     position: relative; top:; left: 15;
+     border-radius: 5px;
+   }
+   .continuar:hover {
+     opacity: 0.9;
+   }
+   .cancelar {
+     border: none;
+     background: none;
+     float: left;
+     width: 20;
+     height: 20;
+     position: absolute;top: 7; left: 400;
+     font-size: 18;
+   }
