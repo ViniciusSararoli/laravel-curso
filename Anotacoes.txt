@@ -1,0 +1,5 @@
+*** Iniciar servidor ***
+php artisan serve
+
+*** Criar projeto ***
+composer create-project --prefer-dist laravel/laravel hdcevents
